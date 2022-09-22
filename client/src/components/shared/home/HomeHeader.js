@@ -1,3 +1,4 @@
+
 import { MainHeader } from "../../../styles/sharedStyle";
 
 const HomeHeader = () => (
@@ -29,5 +30,6 @@ export const styles = {
     fontSize: '65px',
   }
 }
+
 
 export default HomeHeader;

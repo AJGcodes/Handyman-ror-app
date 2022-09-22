@@ -1,3 +1,4 @@
+
 import AboutHeader from "./AboutHeader";
 
 const About = () => (
@@ -5,6 +6,7 @@ const About = () => (
     <AboutHeader />
     
   </>
+
 )
 
 export default About;

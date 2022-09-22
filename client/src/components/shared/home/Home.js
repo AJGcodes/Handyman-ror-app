@@ -1,13 +1,15 @@
-import HomeHeader from "./HomeHeader";
-// import Features from "./Features";
-// import Price from "./Price";
+
+import HomeHeader from './HomeHeader';
+import Specialties from './Specialties';
+import Price from './Price';
 
 const Home = () => (
-  <>
+    <>
     <HomeHeader />
-    {/* <Features /> */}
-    {/* <Price /> */}
-  </>
+    <Specialties />
+    <Price />
+    </>
+
 )
 
 export default Home;
