@@ -1,0 +1,3 @@
+class Service < ApplicationRecord 
+    validates : :service_title, :price, presence: true
+end 
