@@ -3,6 +3,7 @@ import Home from './components/shared/home/Home';
 import About from './components/shared/about/About';
 import Workers from './components/workers/Workers';
 import Nomatch from './components/shared/Nomatch';
+
 import Navbar from './components/shared/Navbar';
 import Davhorne from './components/Aboutpages/davhorne/Davhorne';
 import Borjakay from './components/Aboutpages/borjakay/Borjakay';

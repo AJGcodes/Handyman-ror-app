@@ -1,8 +1,12 @@
 
+import AboutHeader from "./AboutHeader";
+
 const About = () => (
-    <>
-        <h1>About our organization</h1>
-    </>
+  <>
+    <AboutHeader />
+    
+  </>
+
 )
 
 export default About;

@@ -1,3 +1,4 @@
+
 import WorkersHeader from './WorkersHeader';
 import WorkersList from './Workerslist';
 
@@ -9,6 +10,7 @@ const Workers = () => {
             <WorkersList />
         </>
     )
+
 }
 
 export default Workers;
