@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Home from './components/shared/home/Home';
+import About from './components/shared/about/About';
+import Workers from './components/workers/Workers';
+import Nomatch from './components/shared/Nomatch';
+import MainNavbar from './components/shared/MainNavbar';
+// import Todos from './components/todos/Todos';
+// import Notes from './components/notes/Notes';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <>
+    <MainNavbar />
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/about' element={<About />} />
+      <Route path='/workers' element={<Workers />} />
+      {/* <Route path='/:listId/todos' element={<Todos />} />
+      <Route path='/:todoId/notes' element={<Notes />} /> */}
+      <Route path='/*' element={<Nomatch />} />
+    </Routes>
+  </>
+)
 
 export default App;
